@@ -14,14 +14,14 @@ namespace gralab6wizualne
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3(x,y,dydelf,krokodyl,czas);
-            form3.ShowDialog();
+            Form3 form3 = new Form3(this,x,y,dydelf,krokodyl,czas);
+            form3.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2(this);
-            form2.ShowDialog();
+            form2.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)

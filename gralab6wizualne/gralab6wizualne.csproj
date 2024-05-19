@@ -8,4 +8,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Bazoule_sacred_crocodiles_MS_6709cropped.jpeg" />
+    <None Remove="pobrane.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Bazoule_sacred_crocodiles_MS_6709cropped.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pobrane.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
